@@ -120,3 +120,4 @@ No `.env` file or environment-variable usage was found. Do not store secrets in 
 ## Development Notes
 
 Keep application content changes grounded in the existing data modules. If a backend, CMS, authentication, or database is added later, document the new environment variables, APIs, and deployment requirements before release.
+# dc-college
