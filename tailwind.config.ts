@@ -1,0 +1,2 @@
+import type { Config } from "tailwindcss";
+export default { content: ["./index.html", "./src/**/*.{ts,tsx}"], theme: { extend: { colors: { navy: "#071A2B", midnight: "#0D2B45", "navy-soft": "#0D2B45", "warm-white": "#F4F8FA", cream: "#FFFFFF", gold: "#18C8D8", "muted-blue": "#B8CBD4" }, fontFamily: { display: ["Cormorant Garamond", "Georgia", "serif"], editorial: ["DM Serif Display", "Georgia", "serif"], body: ["Manrope", "Arial", "sans-serif"] } } }, plugins: [] } satisfies Config;
